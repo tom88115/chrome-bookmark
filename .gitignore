@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 备份文件
+backup/
+backups/
+*.backup
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 用户特定数据
+# 不要提交用户的实际书签文件
+Bookmarks
+Bookmarks.bak
+
+# 构建输出
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# 临时创建的文件
+/tmp/
+create_automator_app.scpt
+
